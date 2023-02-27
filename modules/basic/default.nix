@@ -128,6 +128,12 @@ in {
       default = true;
       description = "New splits will open to the right";
     };
+
+    wildmode = mkOption {
+      type = types.string;
+      default = "full";
+      description = "Set the wildmode, e.g. 'longest:full,full";
+    };
   };
 
   config = {
@@ -220,6 +226,7 @@ in {
         set termguicolors
         set t_Co=256
       ''}
+      set wildmode=${toString cfg.wildmode}
     '';
   };
 }
