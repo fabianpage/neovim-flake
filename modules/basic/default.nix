@@ -130,7 +130,7 @@ in {
     };
 
     wildmode = mkOption {
-      type = types.string;
+      type = types.str;
       default = "full";
       description = "Set the wildmode, e.g. 'longest:full,full";
     };
