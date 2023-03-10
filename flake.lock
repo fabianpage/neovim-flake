@@ -510,6 +510,22 @@
         "type": "github"
       }
     },
+    "nvim-jdtls": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1678457669,
+        "narHash": "sha256-Vrc1Y1KovLONnGTxThSKGl2mwqdmwQXFL5mijssURQI=",
+        "owner": "mfussenegger",
+        "repo": "nvim-jdtls",
+        "rev": "9fcc9495b5d03f8d50e4af936fd0f905f045a6c2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mfussenegger",
+        "repo": "nvim-jdtls",
+        "type": "github"
+      }
+    },
     "nvim-lightbulb": {
       "flake": false,
       "locked": {
@@ -767,6 +783,7 @@
         "nvim-code-action-menu": "nvim-code-action-menu",
         "nvim-compe": "nvim-compe",
         "nvim-cursorline": "nvim-cursorline",
+        "nvim-jdtls": "nvim-jdtls",
         "nvim-lightbulb": "nvim-lightbulb",
         "nvim-lspconfig": "nvim-lspconfig",
         "nvim-neoclip": "nvim-neoclip",

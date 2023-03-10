@@ -240,6 +240,10 @@
       url = "github:weirongxu/plantuml-previewer.vim";
       flake = false;
     };
+    nvim-jdtls = {
+      url = "github:mfussenegger/nvim-jdtls";
+      flake = false;
+    };
   };
 
   outputs = {
@@ -294,6 +298,7 @@
             formatter = "alejandra";
           };
           rust.enable = isMaximal;
+          java.enable = true;
           python = isMaximal;
           clang.enable = isMaximal;
           sql = isMaximal;

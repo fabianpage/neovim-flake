@@ -22,6 +22,7 @@
     ./telescope
     ./git
     ./plantuml
+    ./java
   ];
 
   pkgsModule = {config, ...}: {
